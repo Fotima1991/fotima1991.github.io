@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preload" href="fonts/Montserrat/stylesheet.css" as="style">
+        <link rel="preload" href="libs/fontawesome/css/all.min.css" as="style">
+        <link rel="preload" href="libs/bootstrap-4.5.3-dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="preload" href="css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="stylesheet" href="fonts/Montserrat/stylesheet.css">
+        <link rel="stylesheet" href="libs/fontawesome/css/all.min.css">
+        <noscript>
+            <link rel="stylesheet" href="libs/bootstrap-4.5.3-dist/css/bootstrap.min.css">
+        </noscript>
+        <link rel="icon" href="images/favicon.webp" type="image/x-icon">
+        <link rel="shortcut icon" href="images/favicon.webp" type="image/x-icon">
+        <noscript>
+            <link rel="stylesheet" href="css/style.css">
+        </noscript>
+        <title>MyPortfolio</title>
+    </head>
+
+    <body>
+
+        <div class="wrapper">
+
+            <!-- PRELOADER -->
+
+            <div class="preloader">
+                <div class="preloader__row">
+                    <div class="preloader__item"></div>
+                    <div class="preloader__item"></div>
+                </div>
+            </div>
+
+            <!-- BUBBLES -->
+
+            <div class="sticky">
+                <div class="bubbles">
+                    <div class="bubble one"></div>
+                    <div class="bubble two"></div>
+                    <div class="bubble three"></div>
+                    <div class="bubble four"></div>
+                    <div class="bubble five"></div>
+                    <div class="bubble six"></div>
+                    <div class="bubble seven"></div>
+                    <div class="bubble eight"></div>
+                    <div class="bubble nine"></div>
+                    <div class="bubble ten"></div>
+                </div>
+            </div>
+
+            <!-- HEADER -->
+
+            <header>
+                <div class="menu" id="menu">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 col-sm-12 col-12">
+                            <div class="logo">
+                                <a href="#">
+                                    <img src="images/logo.webp" alt="logo">
+                                    <span>Web Developer</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12 col-12">
+                            <nav class="header__nav" id="header__nav">
+                                <i class="fas fa-bars mobile menu__burger"></i>
+                                <div class="menu__items">
+                                    <ul>
+                                        <li class="nav__item">
+                                            <a class="nav__link" href="#services">Services</a>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a class="nav__link" href="#portfolio">Portfolio</a>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a class="nav__link" href="#about">About</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                            <span class="switch__toggle">
+                                <input type="checkbox" id="switch" class="btn-toggle"><label for="switch"></label>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="info text-center">
+                                <h2 class="mb-4">Fatima Abduraxmanova</h2>
+                                <p>Web Developer</p>
+                                <a href="#about" class="about__button">About Me!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- SERVICES -->
+
+            <section id="services" class="services">
+                <div class="container">
+                    <h2 class="text-center mb-5">Services</h2>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12 col-12 mb-4">
+                            <div class="services__card">
+                                <div class="card__header">
+                                    <h2 class="text-center">Web Development</h2>
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <div class="card__body">
+                                    <p>I create websites using HTML, CSS and JavaScript. I am a Frontend Developer and you can see what I have done from the Portfolio page. If you need a website, contact me via social media!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-12 mb-4">
+                            <div class="services__card" data-aos="fade-right">
+                                <div class="card__header">
+                                    <h2 class="text-center">Responsive design</h2>
+                                    <i class="fas fa-mobile-alt"></i>
+                                </div>
+                                <div class="card__body">
+                                    <p>I create sites that are flexible to the mobile version. Frontend developers also create the site with flexibility to the mobile version.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-12 mb-4">
+                            <div class="services__card">
+                                <div class="card__header">
+                                    <h2 class="text-center">Design</h2>
+                                    <i class="fas fa-pencil-ruler"></i>
+                                </div>
+                                <div class="card__body">
+                                    <p>I can also do business cards, mockup design, social media post design and more in the Design area. You can see what I did on the Portfolio page.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- PORTFOLIO__IMAGE -->
+
+            <section class="portfolio__image"></section>
+
+            <!-- PORTFOLIO -->
+
+            <section id="portfolio" class="portfolio">
+                <div class="container">
+                    <h2 class="text-center mb-5">Portfolio</h2>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12 col-12">
+                            <div class="portfolio__card">
+                                <a href="https://pasport-mfs.netlify.app/" target="_blank">
+                                    <img src="images/passport-mfs.webp" alt="portfolio">
+                                    <div class="layer">
+                                        <h2 class="text-center">Project 12</h2>
+                                        <p class="text-center">Web Developer</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-12">
+                            <div class="portfolio__card">
+                                <a href="https://sektor-pc.netlify.app/" target="_blank">
+                                    <img src="images/sektor-pc.webp" alt="portfolio">
+                                    <div class="layer">
+                                        <h2 class="text-center">Project 11</h2>
+                                        <p class="text-center">Web Developer</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-12">
+                            <div class="portfolio__card">
+                                <a href="https://goldenproject.netlify.app/" target="_blank">
+                                    <img src="images/golden.webp" alt="portfolio">
+                                    <div class="layer">
+                                        <h2 class="text-center">Project 10</h2>
+                                        <p class="text-center">Web Developer</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-12">
+                            <div class="portfolio__card">
+                                <a href="https://elektromontaj220.netlify.app/" target="_blank">
+                                    <img src="images/elektromontaj220.webp" alt="portfolio">
+                                    <div class="layer">
+                                        <h2 class="text-center">Project 9</h2>
+                                        <p class="text-center">Web Developer</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-12">
+                            <div class="portfolio__card">
+                                <a href="https://akaphone.netlify.app/" target="_blank">
+                                    <img src="images/akaphone.webp" alt="portfolio">
+                                    <div class="layer">
+                                        <h2 class="text-center">Project 8</h2>
+                                        <p class="text-center">Web Developer</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-12">
+                            <div class="portfolio__card">
+                                <a href="https://baulife.netlify.app/" target="_blank">
+                                    <img src="images/baulife.webp" alt="portfolio">
+                                    <div class="layer">
+                                        <h2 class="text-center">Project 7</h2>
+                                        <p class="text-center">Web Developer</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-12">
+                            <div class="portfolio__card">
+                                <a href="https://biruang.netlify.app" target="_blank">
+                                    <img src="images/biruang.webp" alt="portfolio">
+                                    <div class="layer">
+                                        <h2 class="text-center">Project 6</h2>
+                                        <p class="text-center">Web Developer</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-12">
+                            <div class="portfolio__card">
+                                <a href="https://stroyinfo.netlify.app" target="_blank">
+                                    <img src="images/stroyinfo.webp" alt="portfolio">
+                                    <div class="layer">
+                                        <h2 class="text-center">Project 5</h2>
+                                        <p class="text-center">Web Developer</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-12">
+                            <div class="portfolio__card">
+                                <a href="https://globalbizz.netlify.app" target="_blank">
+                                    <img src="images/globalBizz.webp" alt="portfolio">
+                                    <div class="layer">
+                                        <h2 class="text-center">Project 4</h2>
+                                        <p class="text-center">Web Developer</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-12">
+                            <div class="portfolio__card">
+                                <a href="https://orangemarketing.netlify.app/" target="_blank">
+                                    <img src="images/orangemarketing.webp" alt="portfolio">
+                                    <div class="layer">
+                                        <h2 class="text-center">Project 3</h2>
+                                        <p class="text-center">Web Developer</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-12">
+                            <div class="portfolio__card">
+                                <a href="https://smartbiznes.netlify.app" target="_blank">
+                                    <img src="images/smartbiznes.webp" alt="portfolio">
+                                    <div class="layer">
+                                        <h2 class="text-center">Project 2</h2>
+                                        <p class="text-center">Web Developer</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-12">
+                            <div class="portfolio__card">
+                                <a href="https://companyslogan.netlify.app" target="_blank">
+                                    <img src="images/companyslogan.webp" alt="portfolio">
+                                    <div class="layer">
+                                        <h2 class="text-center">Project 1</h2>
+                                        <p class="text-center">Web Developer</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ABOUT__IMAGE -->
+
+            <section class="about__image"></section>
+
+            <!-- ABOUT -->
+
+            <section id="about" class="about">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 col-sm-12 col-12">
+                            <img class="me" src="images/me.webp" alt="it's me">
+                        </div>
+                        <div class="col-md-6 col-sm-12 col-12">
+                            <h2 class="text-center about__title">About me!</h2>
+                            <p class="description">Hi everyone! I'm Fatima Abduraxmanova and I'm 29. This is my portfolio website and you can see my Frontend Development projects.
+                            </p>
+                            <div class="person__info">
+                                <ul>
+                                    <li class="person__info__item">
+                                        <span class="first"><i class="fas fa-user"></i>Name:</span>
+                                        <span class="second">Fatima Abduraxmanova</span>
+                                    </li>
+                                    <li class="person__info__item">
+                                        <span class="first"><i class="far fa-calendar-alt"></i>Birthday:</span>
+                                        <span class="second">03.08.1991</span>
+                                    </li>
+                                    <li class="person__info__item">
+                                        <span class="first"><i class="fas fa fa-map-marker-alt"></i>Address:</span>
+                                        <span class="second"><a href="https://www.google.com/maps/place/%D0%A2%D0%B0%D1%88%D0%BA%D0%B5%D0%BD%D1%82/@41.2811067,69.2577207,10.9z/data=!4m5!3m4!1s0x38ae8b0cc379e9c3:0xa5a9323b4aa5cb98!8m2!3d41.2994958!4d69.2400734?hl=ru" target="_blank">Uzbekistan, Tashkent</a></span>
+                                    </li>
+                                    <li class="person__info__item">
+                                        <span class="first"><i class="fas fa-envelope"></i>Email:</span>
+                                        <span class="second"><a href="mailto:fotima4771@gmail.com">fotima4771@gmail.com</a></span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- FOOTER -->
+
+            <footer>
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-3 col-sm-12 col-12">
+                            <div class="logo">
+                                <a href="#">
+                                    <img src="images/logo.webp" alt="logo">
+                                    <span>Web Developer</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-12">
+                            <div class="social__networks text-center">
+                                <h3>Contact me!</h3>
+                                <a href="https://www.t.me/fatimadeveloper" target="_blank">
+                                    <i class="fab fa-telegram-plane"></i>
+                                </a>
+                                <a href="https://github.com/Fotima1991" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="mailto:fotima4771@gmail.com">
+                                    <i class="fab fa-google"></i>
+                                </a>
+                            </div>
+                            <div class="copyright text-center">
+                                <p>Website made by <span>Fatima Abduraxmanova</span>  2020 - <script>document.write(new Date().getFullYear());</script></p>
+                            </div>
+                        </div>
+                        <div class="col-md-5 col-sm-12 col-12">
+                            <div class="map">
+                                <a href="https://www.google.com/maps/place/%D0%A2%D0%B0%D1%88%D0%BA%D0%B5%D0%BD%D1%82/@41.2811067,69.2577207,10.9z/data=!4m5!3m4!1s0x38ae8b0cc379e9c3:0xa5a9323b4aa5cb98!8m2!3d41.2994958!4d69.2400734?hl=ru" target="_blank">
+                                    <img src="images/map.webp" alt="map">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+            <!-- BACK -->
+
+            <a href="#" class="to__top">
+                <i class="far fa-arrow-alt-circle-up"></i>
+            </a>
+            
+        </div>
+
+        <!-- JS SRC -->
+
+        <script src="libs/jquery-3.5.1.min.js"></script>
+        <script src="libs/vanilla-tilt.js"></script>
+        <script>
+            VanillaTilt.init(document.querySelector(".about__button"), {
+                max: 25,
+                speed: 900
+            });
+        </script>
+        <script src="libs/scrollreveal.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
