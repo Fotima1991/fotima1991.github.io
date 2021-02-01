@@ -1398,6 +1398,10 @@ footer .map img {
   .services .services__card .card__body p {
     font-size: 15px;
   }
+  /*** PORTFOLIO__IMAGE ***/
+  .portfolio__image {
+    height: 180px;
+  }
   /*** PORTFOLIO ***/
   .portfolio {
     padding: 40px 0;
@@ -1410,6 +1414,10 @@ footer .map img {
   }
   .portfolio .portfolio__card a .layer p {
     font-size: 15px;
+  }
+  /*** ABOUT__IMAGE ***/
+  .about__image {
+    height: 180px;
   }
   /*** ABOUT ***/
   .about {
@@ -1648,6 +1656,10 @@ footer .map img {
   .services .services__card .card__body p {
     font-size: 14px;
   }
+  /*** PORTFOLIO__IMAGE ***/
+  .portfolio__image {
+    height: 140px;
+  }
   /*** PORTFOLIO ***/
   .portfolio {
     padding: 40px 0;
@@ -1663,6 +1675,10 @@ footer .map img {
   }
   .portfolio .portfolio__card a .layer p {
     font-size: 14px;
+  }
+  /*** ABOUT__IMAGE ***/
+  .about__image {
+    height: 140px;
   }
   /*** ABOUT ***/
   .about {
