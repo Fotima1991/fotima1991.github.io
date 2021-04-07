@@ -10,19 +10,19 @@ html {
 
 body {
   cursor: default;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   position: relative;
-  transition: .5s all ease;
-  -webkit-transition: .5s all ease;
-  -moz-transition: .5s all ease;
-  -ms-transition: .5s all ease;
-  -o-transition: .5s all ease;
+  transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -ms-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
 }
 
 body.dark-theme {
   color: #fff;
   background-image: url(../images/body-bg.gif);
-  background-color: #0f0e0e;
+  background-color: git #0f0e0e;
 }
 
 body::-webkit-scrollbar {
@@ -93,7 +93,10 @@ body::-o-scrollbar-thumb:hover {
   overflow: hidden;
 }
 
-h1, h3, p, ul {
+h1,
+h3,
+p,
+ul {
   margin: 0;
 }
 
@@ -104,11 +107,11 @@ li {
 
 a {
   display: inline-block;
-  transition: .5s all ease;
-  -webkit-transition: .5s all ease;
-  -moz-transition: .5s all ease;
-  -ms-transition: .5s all ease;
-  -o-transition: .5s all ease;
+  transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -ms-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
 }
 
 a:hover {
@@ -116,11 +119,11 @@ a:hover {
 }
 
 i {
-  transition: .5s all ease;
-  -webkit-transition: .5s all ease;
-  -moz-transition: .5s all ease;
-  -ms-transition: .5s all ease;
-  -o-transition: .5s all ease;
+  transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -ms-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
 }
 
 /*** LOADER ***/
@@ -451,11 +454,11 @@ header .menu {
   position: fixed;
   z-index: 999;
   padding: 15px 80px;
-  transition: .5s all ease;
-  -webkit-transition: .5s all ease;
-  -moz-transition: .5s all ease;
-  -ms-transition: .5s all ease;
-  -o-transition: .5s all ease;
+  transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -ms-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
 }
 
 header .menu .logo a img {
@@ -506,11 +509,11 @@ header .menu .header__nav .menu__items li a:before {
   position: absolute;
   bottom: 0;
   right: 0;
-  transition: .5s all ease;
-  -webkit-transition: .5s all ease;
-  -moz-transition: .5s all ease;
-  -ms-transition: .5s all ease;
-  -o-transition: .5s all ease;
+  transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -ms-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
 }
 
 header .menu .header__nav .menu__items li a:hover:before {
@@ -538,29 +541,29 @@ header .menu .switch__toggle {
   margin: -25px 0 0 0;
 }
 
-header .menu .switch__toggle input[type=checkbox] {
+header .menu .switch__toggle input[type="checkbox"] {
   height: 0;
   width: 0;
   visibility: hidden;
 }
 
-header .menu .switch__toggle input[type=checkbox]:checked + label {
+header .menu .switch__toggle input[type="checkbox"]:checked + label {
   background-color: #0d0e42;
 }
 
 header .menu .switch__toggle input:checked + label:after {
-  content: '🌛';
+  content: "🌛";
   left: calc(80% - 4px);
   transform: translateX(-80%);
   -webkit-transform: translateX(-80%);
   -moz-transform: translateX(-80%);
   -ms-transform: translateX(-80%);
   -o-transform: translateX(-80%);
-  transition: .5s all ease;
-  -webkit-transition: .5s all ease;
-  -moz-transition: .5s all ease;
-  -ms-transition: .5s all ease;
-  -o-transition: .5s all ease;
+  transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -ms-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
 }
 
 header .menu .switch__toggle label {
@@ -575,50 +578,50 @@ header .menu .switch__toggle label {
   -ms-border-radius: 100px;
   -o-border-radius: 100px;
   position: relative;
-  transition: .5s all ease;
-  -webkit-transition: .5s all ease;
-  -moz-transition: .5s all ease;
-  -ms-transition: .5s all ease;
-  -o-transition: .5s all ease;
+  transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -ms-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
 }
 
 header .menu .switch__toggle label:after {
-  content: '🌞';
+  content: "🌞";
   position: absolute;
   top: -1.7px;
   left: 1px;
   width: 10px;
   height: 10px;
-  transition: .3s all ease;
-  -webkit-transition: .3s all ease;
-  -moz-transition: .3s all ease;
-  -ms-transition: .3s all ease;
-  -o-transition: .3s all ease;
+  transition: 0.3s all ease;
+  -webkit-transition: 0.3s all ease;
+  -moz-transition: 0.3s all ease;
+  -ms-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
 }
 
 header .menu .switch__toggle label:active {
-  transition: .3s all ease;
-  -webkit-transition: .3s all ease;
-  -moz-transition: .3s all ease;
-  -ms-transition: .3s all ease;
-  -o-transition: .3s all ease;
+  transition: 0.3s all ease;
+  -webkit-transition: 0.3s all ease;
+  -moz-transition: 0.3s all ease;
+  -ms-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
 }
 
 header .menu .switch__toggle label:active:after {
-  transition: .3s all ease;
-  -webkit-transition: .3s all ease;
-  -moz-transition: .3s all ease;
-  -ms-transition: .3s all ease;
-  -o-transition: .3s all ease;
+  transition: 0.3s all ease;
+  -webkit-transition: 0.3s all ease;
+  -moz-transition: 0.3s all ease;
+  -ms-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
 }
 
 header .menu.fixed {
   background: #000000bd;
-  transition: .5s all ease;
-  -webkit-transition: .5s all ease;
-  -moz-transition: .5s all ease;
-  -ms-transition: .5s all ease;
-  -o-transition: .5s all ease;
+  transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -ms-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
 }
 
 header .info {
@@ -776,11 +779,11 @@ header .info a:hover {
   height: 100%;
   background: #ffff006c;
   opacity: 0;
-  transition: .5s all ease;
-  -webkit-transition: .5s all ease;
-  -moz-transition: .5s all ease;
-  -ms-transition: .5s all ease;
-  -o-transition: .5s all ease;
+  transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -ms-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
   padding: 100px 0;
 }
 
@@ -904,11 +907,11 @@ footer .social__networks a i {
   color: #fff;
   line-height: 40px;
   margin: 0 5px 0 0;
-  transition: .5s all ease;
-  -webkit-transition: .5s all ease;
-  -moz-transition: .5s all ease;
-  -ms-transition: .5s all ease;
-  -o-transition: .5s all ease;
+  transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -ms-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
 }
 
 footer .social__networks a i:hover {
@@ -1330,11 +1333,11 @@ footer .map img {
   header .menu .header__nav .menu__items {
     overflow: hidden;
     height: 0;
-    transition: .5s all ease;
-    -webkit-transition: .5s all ease;
-    -moz-transition: .5s all ease;
-    -ms-transition: .5s all ease;
-    -o-transition: .5s all ease;
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
     transform: translateY(15.9px);
     -webkit-transform: translateY(15.9px);
     -moz-transform: translateY(15.9px);
@@ -1582,11 +1585,11 @@ footer .map img {
   header .menu .header__nav .menu__items {
     overflow: hidden;
     height: 0;
-    transition: .5s all ease;
-    -webkit-transition: .5s all ease;
-    -moz-transition: .5s all ease;
-    -ms-transition: .5s all ease;
-    -o-transition: .5s all ease;
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
     transform: translateY(19.7px);
     -webkit-transform: translateY(19.7px);
     -moz-transform: translateY(19.7px);
